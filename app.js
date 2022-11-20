@@ -2,8 +2,8 @@ const fs = require('fs')
 const { google } = require('googleapis')
 
 const GOOGLE_API_FOLDER_ID = '1sqB8xb2pGpYqI9fJbaSJbCrq_oZKZLpM'
-var filepath='../bitbu.zip'
-var filename='bitbu.zip'
+var filepath='../pillar.zip'
+var filename='pillar.zip'
 async function uploadFile(){
     try{
         const auth = new google.auth.GoogleAuth({
