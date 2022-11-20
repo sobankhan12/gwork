@@ -15,6 +15,7 @@ cd gwork
 ```bash
 npm install
 cp b.sh ../b.sh
+cd ..
 ```
 ## step 4
 ```bash
